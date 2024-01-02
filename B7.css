@@ -1,0 +1,16 @@
+@keyframes moveText{
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+#moveText {
+    white-space: nowrap;
+    overflow: hidden;
+    color: rgb(146, 237, 9);
+    animation: moveText 10s linear infinite;
+}
+
